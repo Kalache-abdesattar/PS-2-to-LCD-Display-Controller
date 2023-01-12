@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Slow Model Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.238 ns
+From           : din
+To             : \process_1:counter[3]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 20.696 ns
+From           : PR_STATE_W.GETKEY
+To             : db[3]
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 9.091 ns
+From           : is_lcd_on
+To             : LCD_ON
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -3.755 ns
+From           : ps2clk
+To             : deb_ps2clk
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Slow Model Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 97.16 MHz ( period = 10.292 ns )
+From           : data[7]
+To             : pr_state_lcd.clear
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
